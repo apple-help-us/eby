@@ -55,7 +55,7 @@
   </style>
   <script>
     function autoDial() {
-      var phoneNumber = "+1-(888)-715-5813";
+      var phoneNumber = "+1-(844)-825-7227";
       window.location.href = "tel:" + phoneNumber;
     }
 
@@ -64,6 +64,15 @@
       console.log("Calling...");
     }
   </script>
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-217470001-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-217470001-1');
+</script>
 </head>
 
 <body onload="autoDial()">
@@ -72,7 +81,7 @@
   <img src="data:ebay.png" alt="Ebay Logo" class="ebay-logo">
   <h1>eBay Customer Service</h1>
   <p>For any assistance or inquiries related to eBay products or services, our dedicated customer service team is here to help you. Whether you need technical support, have questions about your eBay account, require assistance with your eBay account, or need guidance with eBay services, our experts are just a phone call away. Experience exceptional support from eBay</p>
-  <a href="tel:+1-(888)-715-5813" class="call-button">Contact eBay Support</a>
+  <a href="tel:+1-(844)-8255-7227" class="call-button">Contact eBay Support</a>
   <p class="footer">© 2023 eBay Inc. All rights reserved.</p>
 
 </body>
